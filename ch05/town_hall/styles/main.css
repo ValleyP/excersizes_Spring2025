@@ -6,7 +6,7 @@
 *{
 margin:0;
 padding:0;
-box-sizing: border-box;
+box-sizing:border-box;
 }
 
 h1,h2,h3,p,ul{
@@ -44,6 +44,7 @@ h3 {
 
 /* the styles for the header */
 header {
+	border-bottom: 2px solid var(--accent-color);
 	& h2 {
 		font-size: 175%;
 		text-indent: 30px;
@@ -56,11 +57,15 @@ header {
 	& img {
 		float: left;
 	}
-	border-bottom: 2px solid var(--accent-color);
 }
 
 /* the styles for the main content */
 main {
+	& h1{
+border-top:2px solid var(--accent-color);
+border-bottom:2px solid var(--accent-color);
+
+	}
 	clear: left;
 }
 
