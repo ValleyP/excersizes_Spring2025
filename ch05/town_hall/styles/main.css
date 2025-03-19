@@ -78,12 +78,12 @@ main h1{
 /* the styles for the footer */
 footer {
 	background-color: var(--accent-color);
-
-}
-footer p{
+	& p{
 	text-align: center;
 	color:white;
+	}
 }
+
 
 /* CSS class */
 .large {
