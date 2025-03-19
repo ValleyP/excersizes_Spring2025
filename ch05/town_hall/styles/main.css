@@ -45,6 +45,7 @@ h3 {
 /* the styles for the header */
 header{
 	border-bottom: 2px solid var(--accent-color);
+	background: linear-gradient(#f6bb73 0%, white 30%, white 65%, #f6bb73 100%, 30deg);
 	& h2 {
 		font-size: 175%;
 		padding-bottom: 0em;
@@ -89,4 +90,9 @@ footer {
 /* CSS class */
 .large {
 	font-size: 125%;
+}
+
+blockquote{
+	font-style: italic;
+	padding: 2em;
 }
