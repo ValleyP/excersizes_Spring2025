@@ -44,6 +44,7 @@ h3 {
 
 /* the styles for the header */
 header{
+
 	& h1 {
 		font-size: 175%;
 		text-indent: 30px;
@@ -76,8 +77,10 @@ main h1{
 
 /* the styles for the footer */
 footer {
+	background-color: var(--accent-color);
 	& p {
 		text-align: center;
+		color: white;
 	}
 }
 
