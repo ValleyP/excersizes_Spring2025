@@ -26,6 +26,7 @@ body {
 	margin: auto;
 	width: 80%;
 	border:2px solid var(--accent-color);
+	border-radius: 25px;
 }
 a:hover, a:focus{
 	font-style: italic;
@@ -45,7 +46,7 @@ h3 {
 /* the styles for the header */
 header{
 	border-bottom: 2px solid var(--accent-color);
-	background: linear-gradient(#f6bb73 0%, white 30%, white 65%, #f6bb73 100%, 30deg);
+	background-image: linear-gradient(30deg,#f6bb73 0%, white 30%, white 65%, #f6bb73 100%);
 	& h2 {
 		font-size: 175%;
 		padding-bottom: 0em;
@@ -75,6 +76,10 @@ main h1{
 	border-bottom:2px solid var(--accent-color);
 	padding-bottom: 1em;
 	padding-top: 1em;
+}
+
+main img{
+border:4px double var(--accent-color);
 }
 
 /* the styles for the footer */
