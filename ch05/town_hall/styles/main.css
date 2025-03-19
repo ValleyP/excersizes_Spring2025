@@ -43,8 +43,7 @@ h3 {
 }
 
 /* the styles for the header */
-header {
-	border-bottom: 2px solid var(--accent-color);
+header{
 	& h1 {
 		font-size: 175%;
 		text-indent: 30px;
@@ -57,6 +56,11 @@ header {
 	& img {
 		float: left;
 	}	
+}
+
+
+header {
+	border-bottom: 2px solid var(--accent-color);
 }
 
 
