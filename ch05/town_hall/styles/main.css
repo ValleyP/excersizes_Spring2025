@@ -47,7 +47,7 @@ header{
 	border-bottom: 2px solid var(--accent-color);
 	& h2 {
 		font-size: 175%;
-		padding-bottom: 0;
+		padding-bottom: 0em;
 	}
 	& h3 {
 		font-size: 130%;
@@ -72,6 +72,8 @@ main {
 main h1{
 	border-top:2px solid var(--accent-color);
 	border-bottom:2px solid var(--accent-color);
+	padding-bottom: 1em;
+	padding-top: 1em;
 }
 
 /* the styles for the footer */
