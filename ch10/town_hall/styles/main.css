@@ -15,13 +15,13 @@
 	box-sizing: border-box;
 }
 @font-face{
-	font-family: king_arthur;
-	src: url(\(KING\ ARTHUR\).ttf);
+	font-family: broadway;
+	src: url(BROADW.TTF);
 }
 
 header{
 	& h2{
-		font-family: king_arthur;
+		font-family: broadway;
 	}
 }
 /* default styles */
