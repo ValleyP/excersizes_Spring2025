@@ -22,9 +22,47 @@ footer h2 {
     font-size: 90%;
 }
 
+@layer defaults {
+    
+    h1 {
+        color: #333;
+        font-size: 36px;
+    }
+    body {
+        font-family: sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+    h2 { 
+        color: blue;
+        font-size: 24px;
+    }
+    :where(footer) h2 { 
+        color: green;
+        font-size: 16px; 
+    }
+}
+
+@layer page {
+    
+    .main-content {
+        padding: 20px;
+        line-height: 1.6;
+    }
+    a {
+        text-decoration: none;
+        color: purple;
+    }
+}
+
 @media screen and (max-width: 600px) {
+ 
     h2 {
         font-size: 120%;
         text-align: left;
+    }
+    :where(footer) h2 { 
+        color: red;
+        font-size: 22px;
     }
 }
